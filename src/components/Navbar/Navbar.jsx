@@ -12,7 +12,7 @@ export const Navbar = () => {
         Portfolio
       </a>
       <div className={styles.menu}>
-        
+
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
@@ -27,7 +27,7 @@ export const Navbar = () => {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#about">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
         </ul>
         <img
