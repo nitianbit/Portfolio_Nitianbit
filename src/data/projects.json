@@ -30,5 +30,21 @@
     "skills": ["React", "Express", "Node", "Mongodb"],
     "demo": "https://delivery-app-3a614.web.app/",
     "source": "https://www.github.com"
+  },
+  {
+    "title": "Bankist",
+    "imageSrc": "",
+    "description": "This is a project made to learn concepts of arrays & methods in javascript",
+    "skills": ["Javascript", "HTML", "CSS"],
+    "demo": "https://saurabh07n.github.io/Bankist/",
+    "source": "https://github.com/Saurabh07n/Bankist"
+  },
+  {
+    "title": "Food Delivery Website",
+    "imageSrc": "",
+    "description": "This is a project made to learn basics of html, css & javascript",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://saurabh07n.github.io/gimmeFood/",
+    "source": "https://github.com/Saurabh07n/gimmeFood"
   }
 ]

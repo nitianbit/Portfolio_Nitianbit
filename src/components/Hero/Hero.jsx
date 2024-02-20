@@ -7,14 +7,18 @@ export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, We are nitianbits</h1>
-        <p className={styles.description}>
-          Pioneeringg innovation int tech solutions. From sleek mobile apps to robust web 
-          platforms, we craft digital experience that redefine excellence. Join us on our
-          journey to transform ideas into reality.
+        <h1 className={styles.title} style={{
+          fontFamily: "Raleway, sans-serif",
+          lineHeight: "1.25"
+        }}>Tailoring solutions for your success</h1>
+        <p style={{
+          fontFamily: "Raleway, sans-serif",
+          lineHeight: "1.25"
+        }} className={styles.description}>
+          We tailor seamless solutions to your vision, surpassing your business goals with precision and expertise.
         </p>
-        <a href="mailto:nitianbit@gmail.com" className={styles.contactBtn}>
-          Contact Me
+        <a href="#about" className={styles.contactBtn}>
+          Get Started
         </a>
       </div>
       <img
@@ -24,6 +28,6 @@ export const Hero = () => {
       />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
-    </section>
+    </section >
   );
 };
