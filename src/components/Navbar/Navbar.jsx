@@ -44,7 +44,10 @@ export const Navbar = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
-        </ul >
+          <li>
+            <a href="#description">About</a>
+          </li>
+        </ul>
         <img
           className={styles.menuBtn}
           src={
