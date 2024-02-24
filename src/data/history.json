@@ -26,5 +26,17 @@
       "Much more"
     ],
     "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Full Stack Developer",
+    "organisation": "",
+    "startDate": "Jan, 2021",
+    "endDate": "Present",
+    "experiences": [
+      "Python code Development",
+      "Software development",
+      "Expertise in flask, datbases, many more."
+    ],
+    "imageSrc": "history/netflix.png"
   }
 ]
