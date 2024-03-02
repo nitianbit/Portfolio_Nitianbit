@@ -33,7 +33,7 @@
   },
   {
     "title": "Bankist",
-    "imageSrc": "",
+    "imageSrc": "projects/bankist.png",
     "description": "This is a project made to learn concepts of arrays & methods in javascript",
     "skills": ["Javascript", "HTML", "CSS"],
     "demo": "https://saurabh07n.github.io/Bankist/",
@@ -41,7 +41,7 @@
   },
   {
     "title": "Food Delivery Website",
-    "imageSrc": "",
+    "imageSrc": "projects/delivery.png",
     "description": "This is a project made to learn basics of html, css & javascript",
     "skills": ["HTML", "CSS", "Javascript"],
     "demo": "https://saurabh07n.github.io/gimmeFood/",
