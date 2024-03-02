@@ -12,6 +12,7 @@
 
 .image {
   margin-bottom: 26px;
+  height: 160px;
 }
 
 .title {
@@ -20,8 +21,10 @@
 }
 
 .description {
+  height: 80px;
+  overflow: hidden;
   margin-top: 6px;
-  font-size: 25px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -33,6 +36,7 @@
   flex-wrap: wrap;
   gap: 6px;
   list-style: none;
+  height: 120px;
 }
 
 .skill {
@@ -41,9 +45,12 @@
   border-radius: 100px;
   background: var(--color-dark);
   padding: 2px 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.links {
+/* .links {
   width: 100%;
   margin-top: 26px;
   display: flex;
@@ -58,4 +65,4 @@
   border-radius: 100px;
   background: var(--color-primary);
   padding: 1px 22px;
-}
+} */
