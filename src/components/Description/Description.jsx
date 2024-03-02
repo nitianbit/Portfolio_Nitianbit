@@ -11,9 +11,9 @@ const Description = () => {
                     <h1 className="text-4xl text-white font-extrabold mx-auto md:text-5xl">
                         Explore in-demand careers and develop cutting edge skills
                     </h1>
-                    
+
                     <p className='text-white'>
-                        hello , we are NitianBits
+                        We are a young team of passionate developers, all NIT graduates, specializing in crafting innovative web and app solutions for businesses. With a focus on user-friendly design and precision execution, we bring creativity and expertise to every project.
                     </p>
                     <div className="items-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
                         {/* <a href="javascript:void(0)" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
@@ -35,7 +35,7 @@ const Description = () => {
                     />
                 </div>
             </div>
-            
+
         </section>
     )
 }

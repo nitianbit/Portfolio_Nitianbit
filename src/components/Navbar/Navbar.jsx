@@ -33,6 +33,9 @@ export const Navbar = () => {
           onClick={() => setMenuOpen(false)}
         >
           <li>
+            <a href="#description">About</a>
+          </li>
+          <li>
             <a href="#about">Services</a>
           </li >
           <li>
@@ -44,9 +47,7 @@ export const Navbar = () => {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <li>
-            <a href="#description">About</a>
-          </li>
+
         </ul>
         <img
           className={styles.menuBtn}

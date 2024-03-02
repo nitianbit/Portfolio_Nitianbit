@@ -17,8 +17,13 @@ export const Hero = () => {
         }} className={styles.description}>
           We tailor seamless solutions to your vision, surpassing your business goals with precision and expertise.
         </p>
-        
-        <a href="#about" className="block py-2 px-4 text-center text-white font-medium bg-indigo-600 duration-150 hover:bg-indigo-500 active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none">
+
+        <a href="#about" className="block py-2 px-4 text-center text-white font-medium  duration-150  active:bg-indigo-700 rounded-lg shadow-lg hover:shadow-none"
+          style={{
+            border: "1px solid white",
+            backgroundColor: "rgba(25, 55, 109, 0.2)"
+          }}
+        >
           Let's get started
         </a>
       </div>
