@@ -1,26 +1,50 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "title": "NIT Jalandhar Website",
+    "imageSrc": "projects/nitJ.png",
+    "description": "Discover NIT Jalandhar: Empowering Education and Innovatio",
+    "skills": ["React", "Express", "Node", "Mongodb"],
+    "demo": "https://www.nitj.ac.in/",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
+    "title": "Jobify",
+    "imageSrc": "projects/jobify.png",
+    "description": "JobSeeker Nexus: Connecting Talent with Opportunity",
+    "skills": ["React", "Express", "Node", "Mongodb"],
+    "demo": "https://jobify-web-app.onrender.com/",
     "source": "https://www.github.com"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
+    "title": "Stay Safe",
+    "imageSrc": "projects/StaySafe.png",
+    "description": "DestinationX: Explore Beaches, Hills, Rooms, Pools, Lakes, Caves, and Camping – All in One Place",
+    "skills": ["React", "Express"],
+    "demo": "https://staysafewithus.vercel.app/",
     "source": "https://www.github.com"
+  },
+  {
+    "title": "Dynamic Admin Panel",
+    "imageSrc": "projects/deliveryAdmin.png",
+    "description": "Effortlessly oversee deliveries with DeliverEase Admin. Simplify order tracking and logistics management in one intuitive platform.",
+    "skills": ["React", "Express", "Node", "Mongodb"],
+    "demo": "https://delivery-app-3a614.web.app/",
+    "source": "https://www.github.com"
+  },
+  {
+    "title": "Bankist",
+    "imageSrc": "",
+    "description": "This is a project made to learn concepts of arrays & methods in javascript",
+    "skills": ["Javascript", "HTML", "CSS"],
+    "demo": "https://saurabh07n.github.io/Bankist/",
+    "source": "https://github.com/Saurabh07n/Bankist"
+  },
+  {
+    "title": "Food Delivery Website",
+    "imageSrc": "",
+    "description": "This is a project made to learn basics of html, css & javascript",
+    "skills": ["HTML", "CSS", "Javascript"],
+    "demo": "https://saurabh07n.github.io/gimmeFood/",
+    "source": "https://github.com/Saurabh07n/gimmeFood"
   }
 ]

@@ -8,18 +8,36 @@ export const Navbar = () => {
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
-        Portfolio
-      </a>
+      <div style={{
+        display: 'flex',
+        alignItems: 'center'
+      }}>
+        <img style={{
+          height: "60px",
+          width: "60px",
+          borderRadius: "50%",
+          cursor: "pointer"
+        }} src="../../../assets/hero/log.png" className={styles.title} onClick={() => { window.location.href = "/"; }} />
+        <div onClick={() => { window.location.href = "/"; }} style={{
+          color: 'white',
+          fontSize: "30px",
+          marginLeft: "25px",
+          cursor: "pointer"
+        }}>NitianBit</div>
+      </div>
+
       <div className={styles.menu}>
-        
+
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
         >
           <li>
-            <a href="#about">About</a>
+            <a href="#description">About</a>
           </li>
+          <li>
+            <a href="#about">Services</a>
+          </li >
           <li>
             <a href="#experience">Experience</a>
           </li>
@@ -27,8 +45,9 @@ export const Navbar = () => {
             <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="#about">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
+
         </ul>
         <img
           className={styles.menuBtn}
@@ -40,7 +59,7 @@ export const Navbar = () => {
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
-      </div>
-    </nav>
+      </div >
+    </nav >
   );
 };

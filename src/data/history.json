@@ -1,28 +1,41 @@
 [
   {
-    "role": "Software Engineer",
-    "organisation": "Google",
-    "startDate": "Sept, 2022",
+    "role": "App Developer",
+    "organisation": "",
+    "startDate": "Aug, 2021",
     "endDate": "Present",
-    "experiences": ["Worked on Google Maps", "Reduced load times by 50%"],
+    "experiences": ["Delievery App", "Ios Apps","Wallet app using Web3"],
     "imageSrc": "history/google.png"
   },
   {
-    "role": "UI Designer",
-    "organisation": "Mirosoft",
-    "startDate": "Aug, 2021",
-    "endDate": "Aug, 2022",
-    "experiences": ["Worked on Windows 11", "Designed the control panel"],
+    "role": "Web Developers",
+    "organisation": "",
+    "startDate": "Aug, 2020",
+    "endDate": "Present",
+    "experiences": ["College Website", "Travelling website", "Job listing Website", "Many more"],
     "imageSrc": "history/microsoft.png"
   },
   {
-    "role": "SWE Intern",
-    "organisation": "Netflix",
-    "startDate": "Apr, 2020",
-    "endDate": "Jun, 2020",
+    "role": "Aws Engineer",
+    "organisation": "",
+    "startDate": "Jan, 2022",
+    "endDate": "Present",
     "experiences": [
-      "Worked on component library",
-      "Helped create UI components"
+      "Various Backend Deployment",
+      "Automation with Ubuntu S3 instance",
+      "Much more"
+    ],
+    "imageSrc": "history/netflix.png"
+  },
+  {
+    "role": "Full Stack Developer",
+    "organisation": "",
+    "startDate": "Jan, 2021",
+    "endDate": "Present",
+    "experiences": [
+      "Python code Development",
+      "Software development",
+      "Expertise in flask, datbases, many more."
     ],
     "imageSrc": "history/netflix.png"
   }
