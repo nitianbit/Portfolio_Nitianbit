@@ -29,7 +29,7 @@ export const Navbar = () => {
       <div className={styles.menu}>
 
         <ul
-          className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
+          className={`${styles.menuItems} `}
           onClick={() => setMenuOpen(false)}
         >
           <li>
@@ -59,7 +59,32 @@ export const Navbar = () => {
           alt="menu-button"
           onClick={() => setMenuOpen(!menuOpen)}
         />
-      </div >
-    </nav >
+      </div>
+      {
+        menuOpen && <div className="">
+        <ul
+          className={`absolute right-8 bg-white text-black font-bold py-6 px-4 rounded-lg text-2xl space-y-2 shadow-lg`}
+        >
+          <li className="hover:bg-gray-200 px-5 rounded-lg py-1">
+            <a href="#description">About</a>
+          </li>
+          <li className="hover:bg-gray-200 px-5 rounded-lg py-1">
+            <a href="#about">Services</a>
+          </li >
+          <li className="hover:bg-gray-200 px-5 rounded-lg py-1">
+            <a href="#experience">Experience</a>
+          </li>
+          <li className="hover:bg-gray-200 px-5 rounded-lg py-1">
+            <a href="#projects">Projects</a>
+          </li>
+          <li className="hover:bg-gray-200 px-5 rounded-lg py-1">
+            <a href="#contact">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+      }
+    </nav>
   );
 };
+
